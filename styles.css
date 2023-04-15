@@ -1,0 +1,39 @@
+html {
+ font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+body {
+    background-color: mistyrose;
+}
+h1{
+    background-color: rosybrown;
+    text-align: center;
+}
+h2{margin-top:10px;
+    text-align: center;
+}
+h3 {
+    background-color: rgb(205, 241, 221);
+    padding: 8px;
+    border: 4px dotted rgba(235, 85, 85, 0.645);
+    margin-bottom: 8px;
+    font-style: italic;
+    text-align: center;
+}
+.viplisttext {background-color: lavender;
+text-shadow: 1px;
+font-style: oblique;}
+.container {
+    background-color: lemonchiffon;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+.imagesizer {width: 300px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
+border-style: ridge;
+border-width: 15px;
+border-color: rgb(232, 179, 123);
+}
